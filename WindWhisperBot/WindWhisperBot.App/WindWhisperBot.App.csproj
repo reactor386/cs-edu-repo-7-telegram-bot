@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishSingleFile>false</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <PublishReadyToRun>true</PublishReadyToRun>
+    <PublishTrimmed>true</PublishTrimmed>
+    <DebugType>embedded</DebugType>
+
+    <AssemblyVersion>1.0.100.0</AssemblyVersion>
+    <FileVersion>1.0.100.1</FileVersion>
+    <VersionPrefix>1.0.100</VersionPrefix>
+    <VersionSuffix>prerelease</VersionSuffix>
+    <InformationalVersion>v$(VersionPrefix)</InformationalVersion>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+
+    <Copyright Condition=" '$(CopyrightYear)' != '' ">Copyright © $(CopyrightYear)</Copyright>
+
+    <JsonSerializerIsReflectionEnabledByDefault>true</JsonSerializerIsReflectionEnabledByDefault>
+
+    <RootNamespace>WindWhisperBot</RootNamespace>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
